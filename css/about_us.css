@@ -1,0 +1,35 @@
+/* Enhancements for About Kid Wiz section */
+.about {
+    background-color: #fff; /* Light background to keep the text readable */
+    padding-bottom: 5rem; /* Extra padding for better spacing */
+}
+
+.about .row {
+    align-items: center; /* Ensures content and image are aligned nicely */
+    gap: 2rem; /* Provides some space between the text and image on smaller screens */
+}
+
+.about .image img {
+    max-width: 100%; /* Ensures the image is responsive */
+    border-radius: 10px; /* Soft rounded corners for the image */
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1); /* Subtle shadow for depth */
+}
+
+.about .content {
+    color: var(--black); /* Explicitly defining the text color for readability */
+}
+
+.about .content h3 {
+    margin-bottom: 1rem; /* Adds space below the subheading for better visual separation */
+    color: var(--orange); /* Highlights the heading */
+}
+
+.about .content p {
+    margin-bottom: 1rem; /* Adds space between paragraphs for readability */
+    text-align: justify; /* Justifies the text for a cleaner look */
+    color: var(--light-color); /* Lighter text color for a modern, airy feel */
+}
+
+.about .btn {
+    margin-top: 2rem; /* More space above the button to separate it from the text */
+}

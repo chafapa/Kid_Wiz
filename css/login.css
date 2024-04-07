@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+
+:root {
+    --orange: #f9ba60;
+    --pink: #e9768f;
+    --black: #1d1c1c;
+    --white: #fff;
+    --light-color: #666;
+    --box-shadow: 0 .5rem 1.5rem rgba(0,0,0,.1);
+}
+
+body, html {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: #f4f4f4;  */
+    background-image: url('../images/gallery-bg.png');
+}
+
+.login-container {
+    padding: 2rem;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-form-box {
+    width: 100%;
+    max-width: 400px;
+    padding: 2rem;
+    background: var(--white);
+    box-shadow: var(--box-shadow);
+    border-radius: .5rem;
+    text-align: center;
+}
+
+.login-form-box h3 {
+    font-size: 3rem;
+    color: var(--black);
+    margin-bottom: 2rem;
+}
+
+.login-form-box .box {
+    width: 100%;
+    padding: 1rem;
+    margin: 0.5rem 0;
+    box-sizing: border-box;
+    border-radius: .5rem;
+    border: 1px solid #ccc;
+    font-size: 1.6rem;
+}
+
+.login-form-box p {
+    font-size: 1.4rem;
+    color: var(--light-color);
+}
+
+.login-form-box p a {
+    color: var(--orange);
+    font-weight: 600;
+}
+
+.login-form-box .btn {
+    width: 100%;
+    padding: 1rem;
+    border-radius: .5rem;
+    background-color: var(--orange);
+    color: var(--white);
+    font-size: 1.7rem;
+    cursor: pointer;
+    border: 2px solid transparent;
+    margin-top: 1rem;
+}
+
+.login-form-box .btn:hover {
+    background-color: var(--pink);
+    border-color: var(--white);
+}
+
+.login-form-box .logo {
+    font-size: 3rem;
+    color: var(--black);
+    margin-bottom: 1rem;
+}
+
+.logo {
+    text-decoration: none;
+    display: inline-block; 
+    color: var(--black);
+}
+
+.login-form-box .logo i {
+    color: var(--orange);
+}

@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+
+:root {
+    --orange: #f9ba60;
+    --pink: #e9768f;
+    --black: #1d1c1c;
+    --white: #fff;
+    --light-color: #666;
+    --box-shadow: 0 .5rem 1.5rem rgba(0,0,0,.1);
+}
+
+body, html {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: #f4f4f4;  */
+    background-image: url('../images/teacher-bg.png');
+}
+
+.signup-container {
+    padding: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup-form-box {
+    width: 90%;
+    max-width: 360px; 
+    padding: 1rem; 
+    background: var(--white);
+    box-shadow: var(--box-shadow);
+    border-radius: .5rem;
+    text-align: center;
+}
+
+.signup-form-box .logo {
+    font-size: 3rem;
+    color: var(--black);
+    margin-bottom: 0.3rem;
+}
+
+.signup-form-box h3 {
+    font-size: 3rem; 
+    color: var(--black);
+    margin-bottom: 1.5rem;
+}
+
+.signup-form-box .box {
+    width: 100%;
+    padding: 0.3rem;
+    margin: 0.4rem 0; 
+    box-sizing: border-box;
+    border-radius: .5rem;
+    border: 1px solid #ccc;
+    font-size: 1.4rem; 
+}
+
+/* .signup-form-box .gender-select {
+    margin: 0.5rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.signup-form-box .gender-select select {
+    background: var(--white);
+    color: var(--black); 
+    -webkit-appearance: none; 
+    -moz-appearance: none; 
+    appearance: none; 
+    padding-right: 1.5rem; 
+    cursor: pointer; 
+}
+
+.signup-form-box .gender-select label {
+    margin-right: 10px;
+    font-size: 1.4rem;
+    color: var(--black);
+} */
+
+.signup-form-box .gender-select,
+.signup-form-box .role-select {
+    margin: 0.5rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* .signup-form-box .gender-select select,
+.signup-form-box .role-select select {
+    background: var(--white);
+    color: var(--black); 
+    -webkit-appearance: none; 
+    -moz-appearance: none; 
+    appearance: none; 
+    padding-right: 1.5rem; 
+    cursor: pointer; 
+} */
+
+/* from chattt */
+
+.signup-form-box .gender-select select,
+.signup-form-box .role-select select {
+    background: var(--white);
+    /* color: var(--black); */
+    color: var( #666);
+    padding-right: 1.5rem; 
+    cursor: pointer; 
+    border: 1px solid #ccc; 
+}
+
+.signup-form-box .gender-select label,
+.signup-form-box .role-select label {
+    margin-right: 10px;
+    font-size: 1.4rem;
+    color: var(--black);
+}
+
+
+.signup-form-box p {
+    font-size: 1.2rem; 
+    color: var(--light-color);
+}
+
+.signup-form-box p a {
+    color: var(--orange);
+    font-weight: 600;
+}
+
+.signup-form-box .btn {
+    padding: 0.8rem; 
+    border-radius: .5rem;
+    background-color: var(--orange);
+    color: var(--white);
+    font-size: 1.6rem; 
+    cursor: pointer;
+    border: 2px solid transparent;
+    margin-top: 1rem;
+}
+
+.signup-form-box .btn:hover {
+    background-color: var(--pink);
+    border-color: var(--white);
+}
+
+.signup-form-box .logo {
+    margin-bottom: 1rem;
+}
+
+.logo {
+    text-decoration: none;
+    display: inline-block; 
+    color: var(--black);
+}
+
+.signup-form-box .logo i {
+    color: var(--orange);
+}
